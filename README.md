@@ -37,6 +37,12 @@ curl -X PUT http://localhost:8080/admin/v2/persistent/public/default/my-topic/
 # reference: https://pulsar.apache.org/docs/en/admin-api-topics/
 ```
 
+# Produce a message
+
+```bash
+curl http://localhost:8081/produce/Hi
+```
+
 # Get topic statistics
 
 ```bash
